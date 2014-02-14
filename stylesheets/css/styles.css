@@ -5,5 +5,70 @@
     \/\_____\    \ \_\  \ \_____\  \ \____-  \ \_\  \ \_____\  \ \_____\  \ \_____\  \ \____-  \ \_____\ 
      \/_____/     \/_/   \/_____/   \/____/   \/_/   \/_____/   \/_____/   \/_____/   \/____/   \/_____/  */
 /* Base styles */
+body {
+  font-size: 16px;
+  margin: 0;
+  min-height: 1500px;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, sans-serif;
+  margin: 1.25em 0; }
+
 /* Layout styles */
 /* Modules */
+header {
+  background: #111111 url(../../img/bg_header.jpg) 50% top no-repeat;
+  background-size: cover;
+  padding-bottom: 65px;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+.header__billboard h2 {
+  color: #fff;
+  font-size: 3.75em;
+  font-weight: 100;
+  position: relative;
+  z-index: 3; }
+  .header__billboard h2 em {
+    font-style: normal;
+    font-weight: 600; }
+@media only screen and (max-width: 767px) {
+  .header__billboard h2 {
+    font-size: 2em; } }
+
+.header__logo {
+  background: url(../../img/logo.png) left top no-repeat;
+  background-size: 100%;
+  height: 82px;
+  margin: 30px auto 0 auto;
+  max-width: 82px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 20%; }
+
+.header__nav {
+  background-color: #1d1d1d;
+  bottom: 0;
+  height: 65px;
+  margin-bottom: -65px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: 3; }
+  .header__nav.fixed {
+    margin-bottom: 0;
+    position: fixed;
+    top: 0; }
+
+.fade-screen {
+  background-color: #1d1d1d;
+  display: block;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2; }

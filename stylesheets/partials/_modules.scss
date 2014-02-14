@@ -1,2 +1,68 @@
 
 /* Modules */
+
+header {
+	background: #111 url(../../img/bg_header.jpg) 50% top no-repeat;
+	background-size: cover;
+	//min-height: 472px;
+	padding-bottom: 65px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.header__billboard {
+	h2 {
+		color: #fff;
+		font-size: em(60px);
+		font-weight: 100;
+		position: relative;
+		z-index: 3;
+		em {
+			font-style: normal;
+			font-weight: 600;
+		}
+	}
+	@include breakpoint(mobile-portrait) {
+		h2 {
+			font-size: em(32px);
+		}
+	}
+}
+.header__logo {
+	background: url(../../img/logo.png) left top no-repeat;
+	background-size: 100%;
+	height: 82px;
+	margin: 30px auto 0 auto;
+	max-width: 82px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 20%;
+}
+.header__nav {
+	background-color: #1d1d1d;
+	bottom: 0;
+	height: 65px;
+	margin-bottom: -65px;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	z-index: 3;
+	&.fixed {
+		margin-bottom: 0;
+		position: fixed;
+		top: 0;
+	}
+}
+
+
+.fade-screen {
+    background-color: #1d1d1d;
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
