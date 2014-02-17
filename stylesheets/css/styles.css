@@ -6,15 +6,19 @@
      \/_____/     \/_/   \/_____/   \/____/   \/_/   \/_____/   \/_____/   \/_____/   \/____/   \/_____/  */
 /* Base styles */
 body {
+  font-family: 'Crimson Text', serif;
   font-size: 16px;
   margin: 0;
   min-height: 1500px;
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Gotham Bold, Proxima Nova, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   margin: 1.25em 0;
   text-transform: uppercase; }
+
+a {
+  color: #827238; }
 
 /* Layout styles */
 /* Modules */
@@ -71,9 +75,9 @@ header {
     font-weight: normal; }
 .next-event p {
   color: #333;
-  font-family: Gotham Book, Proxima Nova, Arial, sans-serif;
-  font-size: 1.125em;
-  line-height: 24px; }
+  font-family: 'Crimson Text', serif;
+  font-size: 1.25em;
+  line-height: 26px; }
 
 .fade-screen {
   background-color: #1d1d1d;
