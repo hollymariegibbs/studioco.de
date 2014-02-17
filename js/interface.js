@@ -5,7 +5,7 @@ $(document).ready(function() {
         var scrollPos;
         var navPos = $('.header__nav').offset();
         $(window).resize(function() {
-            navPos = $('.header__nav').offset();
+            navPos = $('.header__nav').offset(); 
         });
 
         $(window).scroll(function() {
