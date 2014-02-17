@@ -80,6 +80,27 @@ header {
   font-size: 1.25em;
   line-height: 26px; }
 
+.newsletter {
+  background-color: #827238;
+  padding-bottom: 75px;
+  padding-top: 75px;
+  margin-top: 50px;
+  text-align: center; }
+  .newsletter a {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    text-transform: uppercase; }
+  .newsletter a:hover {
+    background-color: #fff;
+    color: #827238; }
+  .newsletter .button {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 20px;
+    text-align: center; }
+
 .fade-screen {
   background-color: #1d1d1d;
   display: block;

@@ -71,6 +71,31 @@ header {
 	}
 }
 
+.newsletter {
+	background-color: #827238;
+	padding-bottom: 75px;
+	padding-top: 75px;
+	margin-top: 50px;
+	text-align: center;
+	a {
+		text-align: center;
+		color: #fff;
+		font-family: 'Montserrat';
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	a:hover {
+		background-color: #fff;
+		color: #827238;
+	}
+	.button {
+		border: 1px solid #fff;
+		display: inline-block;
+		padding: 20px;
+		text-align: center;
+	}
+}
+
 .fade-screen {
     background-color: #1d1d1d;
     display: block;
