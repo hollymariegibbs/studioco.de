@@ -129,6 +129,7 @@ header {
 		text-align: center;
 		color: #fff;
 		font-family: 'Montserrat';
+		letter-spacing: 3px;
 		text-decoration: none;
 		text-transform: uppercase;
 	}
@@ -141,6 +142,26 @@ header {
 		display: inline-block;
 		padding: 20px;
 		text-align: center;
+	}
+}
+
+.about {
+	margin-bottom: 20px;
+	h2 {
+		font-size: em(35px);
+		margin-bottom: 20px;
+		span {
+			color: #1d1d1d;
+			display: block;
+			font-size: em(18px, 35px);
+			font-weight: normal;
+		}
+	}	
+	p {
+		color: #666;
+		font-family: 'Crimson Text', serif;
+		font-size: em(20px);
+		line-height: 26px;
 	}
 }
 
