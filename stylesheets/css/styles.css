@@ -6,14 +6,19 @@
      \/_____/     \/_/   \/_____/   \/____/   \/_/   \/_____/   \/_____/   \/_____/   \/____/   \/_____/  */
 /* Base styles */
 body {
+  font-family: 'Crimson Text', serif;
   font-size: 16px;
   margin: 0;
   min-height: 1500px;
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, sans-serif;
-  margin: 1.25em 0; }
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  margin: 1.25em 0;
+  text-transform: uppercase; }
+
+a {
+  color: #827238; }
 
 /* Layout styles */
 /* Modules */
@@ -28,12 +33,12 @@ header {
 .header__billboard h2 {
   color: #fff;
   font-size: 3.75em;
-  font-weight: 100;
+  font-weight: 400;
   position: relative;
   z-index: 3; }
   .header__billboard h2 em {
     font-style: normal;
-    font-weight: 600; }
+    font-weight: 700; }
 @media only screen and (max-width: 767px) {
   .header__billboard h2 {
     font-size: 2em; } }
@@ -61,6 +66,19 @@ header {
     margin-bottom: 0;
     position: fixed;
     top: 0; }
+
+.next-event h2 {
+  font-size: 2.1875em;
+  margin-bottom: 20px; }
+  .next-event h2 span {
+    display: block;
+    font-size: 0.875em;
+    font-weight: normal; }
+.next-event p {
+  color: #666;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.25em;
+  line-height: 26px; }
 
 .fade-screen {
   background-color: #1d1d1d;
