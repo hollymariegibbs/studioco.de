@@ -4,6 +4,9 @@ $(document).ready(function() {
         var scrolled = false;
         var scrollPos;
         var navPos = $('.header__nav').offset();
+        $(window).resize(function() {
+            navPos = $('.header__nav').offset();
+        });
 
         $(window).scroll(function() {
             scrolled = true;
@@ -14,7 +17,7 @@ $(document).ready(function() {
                 scrolled = false;
                 scrollPos = $(window).scrollTop();
                 suchScroll();
-                if (scrollPos >= navPos.top) {
+                if (scrollPos >= (navPos.top + 12)) {
                     $('.header__nav').addClass('fixed');
                 }
                 else {
