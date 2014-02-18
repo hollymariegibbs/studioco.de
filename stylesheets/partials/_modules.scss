@@ -75,6 +75,9 @@ header {
 			padding: 7px 10px;
 			text-decoration: none;
 			text-transform: uppercase;
+			&:hover {
+				border: 1px solid #333;
+			}
 			&.-current {
 				border: 1px solid #fff;
 			}

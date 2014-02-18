@@ -91,6 +91,8 @@ header {
       padding: 7px 10px;
       text-decoration: none;
       text-transform: uppercase; }
+      .header__nav nav a:hover {
+        border: 1px solid #333; }
       .header__nav nav a.-current {
         border: 1px solid #fff; }
   @media only screen and (max-width: 767px) {
