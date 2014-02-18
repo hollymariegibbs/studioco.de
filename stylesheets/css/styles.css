@@ -27,15 +27,16 @@ a {
 header {
   background: #111111 url(../../img/bg_header.jpg) 50% top no-repeat;
   background-size: cover;
-  padding-bottom: 65px;
+  padding-bottom: 75px;
   position: relative;
   text-align: center;
   width: 100%; }
 
 .header__billboard h2 {
   color: #fff;
-  font-size: 3.75em;
+  font-size: 3.375em;
   font-weight: 400;
+  margin: 1.75em 0;
   position: relative;
   z-index: 3; }
   .header__billboard h2 em {
