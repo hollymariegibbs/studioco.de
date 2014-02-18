@@ -33,6 +33,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 1.25em 0;
   text-transform: uppercase;
 }
+h2 {
+  font-size: em(36px);
+  @include breakpoint(mobile-portrait) {
+    font-size: em(26px);
+  }
+}
 a {
   color: #827238;
 }

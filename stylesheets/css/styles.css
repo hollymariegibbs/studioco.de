@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.25em 0;
   text-transform: uppercase; }
 
+h2 {
+  font-size: 2.25em; }
+  @media only screen and (max-width: 767px) {
+    h2 {
+      font-size: 1.625em; } }
+
 a {
   color: #827238; }
 
@@ -44,7 +50,7 @@ header {
     font-weight: 700; }
 @media only screen and (max-width: 767px) {
   .header__billboard h2 {
-    font-size: 2em; } }
+    font-size: 1.75em; } }
 
 .header__logo {
   background: url(../../img/logo.png) left top no-repeat;
@@ -129,7 +135,6 @@ header {
   padding: 30px 0; }
 
 .next-event h2 {
-  font-size: 2.1875em;
   margin-bottom: 20px; }
   .next-event h2 span {
     color: #1d1d1d;
@@ -167,12 +172,11 @@ header {
 .about {
   margin-bottom: 20px; }
   .about h2 {
-    font-size: 2.1875em;
     margin-bottom: 20px; }
     .about h2 span {
       color: #1d1d1d;
       display: block;
-      font-size: 0.51429em;
+      font-size: 0.5em;
       font-weight: normal; }
   .about p {
     color: #666;

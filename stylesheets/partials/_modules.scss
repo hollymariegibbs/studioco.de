@@ -24,7 +24,7 @@ header {
 	}
 	@include breakpoint(mobile-portrait) {
 		h2 {
-			font-size: em(32px);
+			font-size: em(28px);
 		}
 	}
 }
@@ -130,7 +130,6 @@ header {
 
 .next-event {
 	h2 {
-		font-size: em(35px);
 		margin-bottom: 20px;
 		span {
 			color: #1d1d1d;
@@ -176,12 +175,11 @@ header {
 .about {
 	margin-bottom: 20px;
 	h2 {
-		font-size: em(35px);
 		margin-bottom: 20px;
 		span {
 			color: #1d1d1d;
 			display: block;
-			font-size: em(18px, 35px);
+			font-size: em(18px, 36px);
 			font-weight: normal;
 		}
 	}	
