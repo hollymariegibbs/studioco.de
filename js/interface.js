@@ -53,7 +53,7 @@ $(document).ready(function() {
         var sectionIDs = []; 
         var currentSection;
         $('.layer').each(function() {
-          sectionPositions.push(($(this).offset().top) - 70); 
+          sectionPositions.push(($(this).offset().top) - 65); 
           sectionIDs.push($(this).attr('id'));
         });
 
