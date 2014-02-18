@@ -27,15 +27,16 @@ a {
 header {
   background: #111111 url(../../img/bg_header.jpg) 50% top no-repeat;
   background-size: cover;
-  padding-bottom: 65px;
+  padding-bottom: 75px;
   position: relative;
   text-align: center;
   width: 100%; }
 
 .header__billboard h2 {
   color: #fff;
-  font-size: 3.75em;
+  font-size: 3.375em;
   font-weight: 400;
+  margin: 1.75em 0;
   position: relative;
   z-index: 3; }
   .header__billboard h2 em {
@@ -89,9 +90,19 @@ header {
       margin-left: 25px;
       padding: 7px 10px;
       text-decoration: none;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-transition: border 0.35s ease;
+      -moz-transition: border 0.35s ease;
+      -o-transition: border 0.35s ease;
+      transition: border 0.35s ease; }
+      .header__nav nav a:hover {
+        border: 1px solid #444; }
       .header__nav nav a.-current {
-        border: 1px solid #fff; }
+        border: 1px solid #fff;
+        -webkit-transition: border 0.35s ease;
+        -moz-transition: border 0.35s ease;
+        -o-transition: border 0.35s ease;
+        transition: border 0.35s ease; }
   @media only screen and (max-width: 767px) {
     .header__nav {
       max-height: 85px; }

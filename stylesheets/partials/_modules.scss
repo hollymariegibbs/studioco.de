@@ -4,8 +4,7 @@
 header {
 	background: #111 url(../../img/bg_header.jpg) 50% top no-repeat;
 	background-size: cover;
-	//min-height: 472px;
-	padding-bottom: 65px;
+	padding-bottom: 75px;
 	position: relative;
 	text-align: center;
 	width: 100%;
@@ -13,8 +12,9 @@ header {
 .header__billboard {
 	h2 {
 		color: #fff;
-		font-size: em(60px);
+		font-size: em(54px);
 		font-weight: 400;
+		margin: 1.75em 0;
 		position: relative;
 		z-index: 3;
 		em {
@@ -75,8 +75,19 @@ header {
 			padding: 7px 10px;
 			text-decoration: none;
 			text-transform: uppercase;
+			-webkit-transition: border 0.35s ease;
+			-moz-transition: border 0.35s ease;
+			-o-transition: border 0.35s ease;
+			transition: border 0.35s ease;
+			&:hover {
+				border: 1px solid #444;
+			}
 			&.-current {
 				border: 1px solid #fff;
+				-webkit-transition: border 0.35s ease;
+				-moz-transition: border 0.35s ease;
+				-o-transition: border 0.35s ease;
+				transition: border 0.35s ease;
 			}
 		}
 	}
