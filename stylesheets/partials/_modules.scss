@@ -219,6 +219,9 @@ footer {
 	text-indent: 100%;
 	white-space: nowrap;
 	width: 20%;
+	@include breakpoint(mobile-portrait) {
+		margin-top: 45px;
+	}
 }
 
 .fade-screen {
